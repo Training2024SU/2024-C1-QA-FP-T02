@@ -11,7 +11,7 @@ Se pide:
 | --- | --- | --- |
 | Plan de calidad | Página Web y servicios seleccionados |
 | Matriz de riesgo | Incluya almenos 5 riesgos de producto y 5 de proyecto. | [Ver Matriz de riesgo](https://docs.google.com/spreadsheets/d/1afFllXKuSdJ53t746N63JfwCc6Sn-BOD/edit?usp=sharing&ouid=107533247988314333376&rtpof=true&sd=true)  |
-| Diseño de CP | -1er servicio (4 tradicionales),- 2do servicio (4 Gherkin) - Web (8 Gherkin) |
+| Diseño de CP | -1er servicio (4 tradicionales),- 2do servicio (4 Gherkin) - Web (8 Gherkin) | [Ver 2o Servicio](https://docs.google.com/spreadsheets/d/1nhiJQkb5DTFs459XEMGxz9KT9VEefMzR3mSMTC38Tm0/edit?usp=sharing)  |
 | Evidencias de CP | Ejecución de los casos de prueba diseñados. |
 
 Nota:
