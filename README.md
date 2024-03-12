@@ -7,8 +7,8 @@
 
 Se pide: 
 
-| Entregables:  |  |
-| --- | --- |
+| Entregables:  |  |  |
+| --- | --- | --- |
 | Plan de calidad | Página Web y servicios seleccionados |
 | Matriz de riesgo | Incluya almenos 5 riesgos de producto y 5 de proyecto. |
 | Diseño de CP | -1er servicio (4 tradicionales),- 2do servicio (4 Gherkin) - Web (8 Gherkin) |
