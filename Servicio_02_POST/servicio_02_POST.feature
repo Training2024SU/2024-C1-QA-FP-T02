@@ -18,7 +18,7 @@ Feature: Creación y Testeo de Usuarios mediante Método POST
   Scenario: Crear usuario sin datos
     Given que estoy en Postman
     When  creo un usuario sin parametros
-    Then  Abria un error indicandome la ausencia de datos
+    Then  habria un error indicandome la ausencia de datos
     
 
 
@@ -27,7 +27,7 @@ Feature: Creación y Testeo de Usuarios mediante Método POST
   Scenario: Crear usuario con datos invalidos
     Given que estoy en Postman
     When  creo un usuario con datos invalidos
-    Then  Abria un error indicandome el tipo de dato incorrecto
+    Then  habria un error indicandome el tipo de dato incorrecto
    
     | Name      | Job       |
     | - 1       | 10,2      |
@@ -44,7 +44,7 @@ Feature: Creación y Testeo de Usuarios mediante Método POST
     Given  que estoy en Postman
     When   creo un usuario con nombre valido 
     And    Job no registrado en la base de datos 
-    Then   Abria un error indicandome que no existe el campo Job en la BD
+    Then   habria un error indicandome que no existe el campo Job en la BD
    
     | Name      | Job       |
     | "Johan"   | "Manager" |
