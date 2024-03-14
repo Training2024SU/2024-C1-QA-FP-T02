@@ -1,1 +1,0 @@
-https://zippy-stew-3b9.notion.site/Plan-de-calidad-Amazon-Login-y-registro-5951151c457e44c1957dc7a37e3dc6eb
