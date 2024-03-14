@@ -10,7 +10,7 @@ Se pide:
 | Entregables:  |  |  |
 | --- | --- | --- |
 | Plan de calidad | Página Web y servicios seleccionados |
-| Matriz de riesgo | Incluya almenos 5 riesgos de producto y 5 de proyecto. | [Ver Matriz de riesgo](https://docs.google.com/spreadsheets/d/1tTSrFP63eQhAj_7GiLQO2QACCh6JKk77/edit?rtpof=true)  |
+| Matriz de riesgo | Incluya almenos 5 riesgos de producto y 5 de proyecto. | [Correccion matriz de riesgo](https://docs.google.com/spreadsheets/d/1tTSrFP63eQhAj_7GiLQO2QACCh6JKk77/edit?rtpof=true)  |
 | Diseño de CP | -1er servicio (4 tradicionales),- 2do servicio (4 Gherkin) - Web (8 Gherkin) |
 | Evidencias de CP | Ejecución de los casos de prueba diseñados. |
 
