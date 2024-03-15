@@ -1,31 +1,36 @@
 Feature: Ingreso de usuario con el servicio POST de Amazon
-  Yo como tester 
-  Quiero ingresar datos válidos e incorrectos
-  Para verificar el funcionamiento de la integración del servicio
+  Como   Usuario 
+  Quiero usar el servicio de ingreso de Amazon 
+  Para   ingresar a la plataforma de Amazon
 
   Background: 
-    Given el tester ingresa al servicio de inicio de sesión de Amazon a traves de Postman
+    Given que el usuario está utilizando Postman
+    And   está accediendo al servicio de ingreso de Amazon
 
+  @ingreso_exitoso
   @camino_feliz
-  Scenario: Ingresar con credenciales correctas
-    When el tester ingresa credenciales válidas
+  Scenario: Ingreso aprovado por credenciales  correctas 
+    When el usuario ingresa credenciales válidas
     Then debería recibir un token único de inicio de sesión 
     And  debería recibir una respuesta exitosa
   
+  @credenciales_vacias
   @excepcion
-  Scenario: Ingresar sin ingresar credenciales
-    When el tester no ingresa correo electrónico ni contraseña
-    Then debería ver un mensaje de error indicando que se requieren correo electrónico o contraseña
+  Scenario: Acceso de ingreso rechazado por credenciales vacías 
+    When el usuario no ingresa correo electrónico ni contrasena
+    Then debería ver un mensaje de error indicando que se requieren las credenciales
     And  no debería recibir un token de inicio de sesión
 
+  @contrasena_incorrecta
   @excepcion
-  Scenario: Ingresar con contraseña incorrecta
-    When el tester ingresa un correo electrónico válido pero una contraseña incorrecta
+  Scenario: Acceso de ingreso rechazado por contrasena incorrecta
+    When el usuario ingresa un correo electrónico válido pero una contraseña incorrecta
     Then debería ver un mensaje de error indicando que la contraseña es incorrecta
     And  no debería recibir un token de inicio de sesión
 
+  @correo_incorrecto
   @excepcion
-  Scenario: Ingresar con datos de un usuario no registrado
-    When el tester ingresa un correo electrónico no registrado en Amazon
+  Scenario: Acceso de ingreso rechazado por correo incorrecto
+    When el usuario ingresa un correo electrónico no registrado en Amazon
     Then debería ver un mensaje de error indicando que el usuario no está registrado
     And  no debería recibir un token de inicio de sesión
